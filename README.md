@@ -2,8 +2,6 @@
 
 A simple yet interactive webpage demonstrating fundamental web development concepts, created as part of the ApexPlanet Software Pvt Ltd internship program.
 
-![Web Development Illustration](https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80)
-
 ## 📌 Overview
 
 This project showcases the implementation of web development fundamentals through a clean, responsive webpage that incorporates:
