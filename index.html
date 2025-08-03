@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexPlanet - Web Development Basics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Web Development</h1>
+        <p style="color: rgb(255, 255, 255); ">Learning HTML, CSS, and JavaScript with ApexPlanet</p>
+        <div class="header-badge">Internship Task 1</div>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About This Project</h2>
+            <p">This is a simple webpage created as part of the internship task at ApexPlanet Software Pvt Ltd. 
+               It demonstrates the basic concepts of web development including HTML structure, CSS styling, 
+               and JavaScript interactivity.</p>
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300&q=80" alt="Web Development Illustration">
+        </section>
+        
+        <section id="skills">
+            <h2>Skills Covered</h2>
+            <ul>
+                <li><strong>HTML5</strong> - Structure and content</li>
+                <li><strong>CSS3</strong> - Styling and layout</li>
+                <li><strong>JavaScript</strong> - Interactivity and functionality</li>
+            </ul>
+            <div class="skill-meter">
+                <div class="skill-bar">
+                    <div class="skill-progress html" style="width: 90%;">HTML</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress css" style="width: 85%;">CSS</div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress js" style="width: 75%;">JavaScript</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="interaction">
+            <h2>Interactive Element</h2>
+            <p>Click the button below to see JavaScript in action:</p>
+            <div class="button-container">
+                <button id="alertButton">Click Me!</button>
+                <span class="button-hint">Try it now!</span>
+            </div>
+            <div id="interaction-result" class="result-box">
+                <p>Status: <span id="status">Waiting for interaction...</span></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-note">
+            <p style="color: rgb(233, 233, 233);">Created with <span class="heart">♥</span> by Soumodip</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
